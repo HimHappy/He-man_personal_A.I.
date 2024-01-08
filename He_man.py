@@ -131,6 +131,6 @@ def mic_input():
 
 if __name__ == '__main__':
     say("Hello my name is He-man. A personal A.I. of my developer 'Himanshu'. how can i help you today")
-    # say("if you want to open some website, please don't use .com .net or something ending with a dot. Just tell me like open or go to or visit and website name. Thanks")
+    say("if you want to open some website, please don't use .com .net or something ending with a dot. Just tell me like open or go to or visit and website name. Thanks")
     while True:
         text = mic_input()
