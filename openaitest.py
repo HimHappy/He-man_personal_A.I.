@@ -1,5 +1,6 @@
 from openai import OpenAI
 client = OpenAI()
+# add your openai api key to system enviroment that is much efficient
 
 response = client.chat.completions.create(
   model="gpt-3.5-turbo",
