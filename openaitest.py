@@ -7,7 +7,7 @@ response = client.chat.completions.create(
   messages=[
     {
       "role": "user",
-      "content": "write an email for resignation\n"
+      "content": "write an email for sick leave\n"
     }
   ],
   temperature=1,
